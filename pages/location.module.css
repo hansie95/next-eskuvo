@@ -1,0 +1,26 @@
+.cim{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cim:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.text_h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text_hazigazda{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+

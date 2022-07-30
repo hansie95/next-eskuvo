@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=WindSong&display=swap);
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(0, 0, 0, 0.118));
+  margin-top:10px;
+  margin-bottom: 50px;
+  font-size: 4.5em;
+}
+
+.waviy span:hover{
+    color:white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) { 
+    .waviy{
+        font-size: 3em;
+    }
+}
+
+.waviy span {
+  font-family: 'WindSong', cursive;
+  position: relative;
+  display: inline-block;
+  color: #000;
+  animation: waviy 3s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}

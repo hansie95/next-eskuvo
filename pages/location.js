@@ -3,10 +3,10 @@ const Location = () => {
   return (
     <div>
       <p className={styles.text_h1}>
-        Az esküvőnkek a Varsádi pincészet ad otthont!{" "}
+        Az esküvőnknek a Varsádi pincészet ad otthont!{" "}
       </p>
       <p className={styles.text_hazigazda}>
-        Házigazdáink Varsádi Zuszi és Varsádi Laci
+        Házigazdáink Varsádi Zuzsi és Varsádi Laci
       </p>
       <p className={styles.text}>
         Cím:{" "}
@@ -18,7 +18,7 @@ const Location = () => {
         </a>
       </p>
 
-      <img className="aranyom" src="/location_kep.jpeg" />
+      <img className={styles.aranyom} src="/location_kep.jpeg" />
     </div>
   );
 };

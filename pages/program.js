@@ -9,8 +9,9 @@ const Program = () => {
       <h1 className={styles.program}>17:30 házasságkötés</h1>
       <h1 className={styles.program}>18:00 fotózkodás a párral</h1>
       <h1 className={styles.program}>19:30 vacsora</h1>
-      <h1 className={styles.program}>21:30 torta</h1>
-      <h1 className={styles.program}>Menyasszonytánc</h1>
+      <h1 className={styles.program}>
+        Vacsora után torta és menyasszonytánc majd mulatás ameedig bírjuk!
+      </h1>
     </div>
   );
 };

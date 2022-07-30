@@ -26,6 +26,9 @@ a {
   border-radius: 10px;
 }
 
+.datum{
+  
+}
 .aranyom2{
   display: block;
   border: 2px solid rgba(0, 0, 0, 0.093);
@@ -34,6 +37,8 @@ a {
   border-radius: 10px;
   margin-bottom: 80px;
 }
+
+
 
 @media only screen and (max-width: 767px) { 
  .aranyom {

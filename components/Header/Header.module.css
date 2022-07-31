@@ -52,4 +52,8 @@
     .header_text{
         font-size: 3em;
     }
+
+    .main_header{
+        padding-top:50px;
+    }
 }

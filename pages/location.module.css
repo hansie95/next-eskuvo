@@ -10,7 +10,7 @@
 .text_h1{
     margin-top: 30px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .text_hazigazda{
@@ -35,3 +35,12 @@
     margin-bottom: 100px;
   }
 
+  .helyszindoboz{
+    margin: 0 auto 0 auto;
+  }
+
+  @media only screen and (max-width: 767px) { 
+    .helyszindoboz{
+       width: 400px;
+    }
+}

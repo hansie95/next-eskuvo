@@ -11,21 +11,21 @@ const Accomodation = () => {
         >
           Kolonics pincészetben
         </a>{" "}
-        lesz a szállásuk, ami 3 napi járóföldre helyeszkedik az esküvő
+        lesz a szállásuk, ami 5 percnyi járóföldre helyeszkedik el az esküvő
         helyszínétől :)
       </p>
       <p className={styles.text}>
         A szálláson 2 ágyas szobák lesznek és déltől lehet átvenni őket!
       </p>
-      <ul className={styles.list}>
-        <li>Szabó Lackó és gyermekei (5 fő)</li>
-        <li>Drucker Vera család (4 fő)</li>
-        <li>Schmidt család (6 fő)</li>
-        <li>Trézsi pár (2 fő)</li>
-        <li>Szeki pár (2 fő)</li>
-        <li>Zenész (1 fő)</li>
-      </ul>
-      <p className={styles.text}></p>
+      <div className={styles.list_container}>
+        <p className={styles.list}>Szabó Lackó és gyermekei (5 fő)</p>
+        <p className={styles.list}>Drucker Vera család (4 fő)</p>
+        <p className={styles.list}>Schmidt család (6 fő)</p>
+        <p className={styles.list}>Trézsi pár (2 fő)</p>
+        <p className={styles.list}>Szeki pár (2 fő)</p>
+        <p className={styles.list}>Zenész (1 fő)</p>
+      </div>
+
       <div className={styles.container}>
         <div>
           <img src="/terkep.png" className="aranyom2" />

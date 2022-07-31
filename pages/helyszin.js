@@ -7,7 +7,7 @@ const Location = () => {
           Az esküvőnknek a Varsádi pincészet ad otthont!{" "}
         </p>
         <p className={styles.text_hazigazda}>
-          Házigazdáink Varsádi Zuzsi és Varsádi Laci
+          Házigazdáink Varsádi Zsuzsi és Varsádi Laci
         </p>
         <p className={styles.text}>
           Cím:{" "}

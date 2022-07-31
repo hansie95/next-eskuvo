@@ -11,14 +11,14 @@ const Header = () =>{
         </Link>
        
 
-        <Link href="/program">
-          <a className={router.pathname == "/program" ? `${styles.nav_item__active}` : `${styles.nav_item}` }>Menetrend</a>
+        <Link href="/menetrend">
+          <a className={router.pathname == "/menetrend" ? `${styles.nav_item__active}` : `${styles.nav_item}` }>Menetrend</a>
         </Link>
-        <Link href="/location">
-          <a className={router.pathname == "/location" ? `${styles.nav_item__active}` : `${styles.nav_item}` }>Helyszín</a>
+        <Link href="/helyszin">
+          <a className={router.pathname == "/helyszin" ? `${styles.nav_item__active}` : `${styles.nav_item}` }>Helyszín</a>
         </Link>
-        <Link href="/accomodation">
-          <a className={router.pathname == "/accomodation" ? `${styles.nav_item__active}` : `${styles.nav_item}` }>Szállás</a>
+        <Link href="/szallas">
+          <a className={router.pathname == "/szallas" ? `${styles.nav_item__active}` : `${styles.nav_item}` }>Szállás</a>
         </Link>
      
        

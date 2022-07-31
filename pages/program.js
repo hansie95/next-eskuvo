@@ -10,7 +10,7 @@ const Program = () => {
       <h1 className={styles.program}>18:00 fotózkodás a párral</h1>
       <h1 className={styles.program}>19:30 vacsora</h1>
       <h1 className={styles.program}>
-        Vacsora után torta és menyasszonytánc, majd mulatás amedig bírjuk!
+        Vacsora után torta és menyasszonytánc, majd mulatás ameddig bírjuk!
       </h1>
     </div>
   );

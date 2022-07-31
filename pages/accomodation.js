@@ -14,9 +14,7 @@ const Accomodation = () => {
         lesz a szállásuk, ami 5 percnyi járóföldre helyeszkedik el az esküvő
         helyszínétől :)
       </p>
-      <p className={styles.text}>
-        A szálláson 2 ágyas szobák lesznek és déltől lehet átvenni őket!
-      </p>
+
       <div className={styles.list_container}>
         <p className={styles.list}>Szabó Lackó és gyermekei (5 fő)</p>
         <p className={styles.list}>Drucker Vera család (4 fő)</p>
@@ -25,6 +23,10 @@ const Accomodation = () => {
         <p className={styles.list}>Szeki pár (2 fő)</p>
         <p className={styles.list}>Zenész (1 fő)</p>
       </div>
+
+      <p className={styles.text}>
+        A szálláson 2 ágyas szobák lesznek és déltől lehet átvenni őket!
+      </p>
 
       <div className={styles.container}>
         <div>
